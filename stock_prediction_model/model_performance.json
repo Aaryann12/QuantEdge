@@ -1,0 +1,17 @@
+{
+    "validation": {
+        "top_5_avg_daily_return": 0.003439301679021872,
+        "top_5_positive_days": 0.5893
+    },
+    "final_test": {
+        "top_5_avg_daily_return": 0.0032860457890125953,
+        "top_5_median_daily_return": 0.001967,
+        "top_5_positive_days": 0.5536,
+        "benchmark_avg_daily_return": 0.0003244149675117295,
+        "excess_return": 0.002961630821500866,
+        "beat_benchmark_days": 0.6160714,
+        "cumulative_return": 0.414023,
+        "sharpe_ratio": 2.671,
+        "maximum_drawdown": -0.172785
+    }
+}

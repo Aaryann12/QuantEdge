@@ -1,0 +1,9 @@
+{
+    "expected_return": 0.003439301679021872,
+    "median_return": 0.0018062457144450983,
+    "positive_probability": 0.5571428571428572,
+    "return_volatility": 0.025632111094635025,
+    "calibration_type": "validation_top_5",
+    "prediction_horizon": "1D",
+    "top_k": 5
+}

@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+pydantic
+pandas
+numpy
+yfinance
+lightgbm==4.6.0
+joblib

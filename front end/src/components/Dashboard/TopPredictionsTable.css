@@ -1,0 +1,138 @@
+.top-predictions-card {
+  padding: 1.4rem 1.5rem;
+  width: 100%;
+  height: fit-content;
+  align-self: flex-start;
+  min-width: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.top-predictions-card .stock-table-container {
+  width: 100%;
+  min-width: 0;
+  overflow-x: hidden; /* Remove horizontal scrollbar completely */
+}
+
+.top-predictions-table-pro {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: auto;
+}
+
+.top-predictions-table-pro th {
+  padding: 0.55rem 0.45rem;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  font-weight: 700;
+  border-bottom: 1px solid var(--border-color);
+  white-space: nowrap;
+}
+
+.top-predictions-table-pro td {
+  padding: 0.65rem 0.45rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  font-size: 0.83rem;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.top-predictions-table-pro td:nth-child(2) {
+  white-space: normal;
+}
+
+.card-header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.card-subtitle {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.stock-row {
+  cursor: pointer;
+}
+
+.rank-badge {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.rank-badge.rank-1 {
+  color: var(--accent-amber);
+}
+
+.stock-symbol-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.symbol-code-lg {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+
+.company-subname-muted {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-predict-compact {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(5, 150, 105, 0.25) 100%);
+  border: 1px solid rgba(16, 185, 129, 0.4);
+  color: #34d399;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 0.78rem;
+  padding: 0.32rem 0.7rem;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-predict-compact:hover {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.3) 0%, rgba(5, 150, 105, 0.4) 100%);
+  border-color: var(--accent-green);
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 1200px) {
+  .top-predictions-table-pro th,
+  .top-predictions-table-pro td {
+    padding: 0.5rem 0.3rem;
+    font-size: 0.78rem;
+  }
+}

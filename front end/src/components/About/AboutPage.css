@@ -1,0 +1,105 @@
+.about-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.about-hero {
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.about-brand-row {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.brand-logo-icon.large {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-lg);
+}
+
+.about-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+
+.about-subtitle {
+  font-size: 0.95rem;
+  color: var(--accent-green);
+  font-weight: 600;
+}
+
+.about-desc {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  max-width: 800px;
+}
+
+.about-stats-row {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.stat-pill-lg {
+  background: rgba(18, 26, 43, 0.6);
+  border: 1px solid var(--border-color);
+  padding: 1rem 1.5rem;
+  border-radius: var(--radius-md);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 140px;
+}
+
+.stat-num {
+  font-size: 1.8rem;
+  font-weight: 800;
+  font-family: var(--font-heading);
+}
+
+.stat-desc {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.about-specs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.spec-box {
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.spec-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.spec-desc {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+  .about-specs-grid {
+    grid-template-columns: 1fr;
+  }
+}

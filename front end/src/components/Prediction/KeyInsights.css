@@ -1,0 +1,76 @@
+.key-insights-card {
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.insights-title-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.insights-icon-box {
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-md);
+  background: rgba(245, 158, 11, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-lamp {
+  color: var(--accent-amber);
+}
+
+.insights-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.insight-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  background: rgba(18, 26, 43, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 0.85rem 1rem;
+  border-radius: var(--radius-md);
+}
+
+.insight-bullet {
+  margin-top: 0.1rem;
+  flex-shrink: 0;
+}
+
+.insight-bullet.positive {
+  color: var(--accent-green);
+}
+
+.insight-bullet.neutral {
+  color: var(--accent-cyan);
+}
+
+.insight-bullet.negative {
+  color: var(--accent-amber);
+}
+
+.insight-text {
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  line-height: 1.4;
+}
+
+.insights-actions-row {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.flex-1 {
+  flex: 1;
+}
